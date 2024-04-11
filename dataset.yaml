@@ -1,0 +1,5 @@
+train: E:/12345/ultralytics-main/ultralytics/data/leaf/images/train/
+val: E:/12345/ultralytics-main/ultralytics/data/leaf/images/val/
+
+nc: 1
+names: ['pomegranate']sd2d
