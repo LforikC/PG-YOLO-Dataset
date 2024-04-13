@@ -1,5 +1,7 @@
 # PG-YOLO-Dataset: A data set for target detection of immature pomegranate fruits
 
+ [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+ 
 ## Introduction
 This repository is built for:
 
@@ -37,3 +39,16 @@ git clone https://github.com/LforikC/PG-YOLO-Dataset.
 # Train yolov8
 yolo detect train data=PG-YOLO-Dataset/dataset.yaml model=yolov8s.yaml epochs=100 imgsz=640
 ```
+
+
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
